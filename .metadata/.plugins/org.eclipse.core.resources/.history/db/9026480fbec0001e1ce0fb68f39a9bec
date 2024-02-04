@@ -1,0 +1,27 @@
+package in.sravanit.beans;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		// MyInterface mi = () -> System.out.println("This is m1() method");
+		MyInterface mi = () -> Demo1::m2;
+		mi.m1();
+	}
+
+}
+
+@FunctionalInterface
+interface MyInterface {
+
+	public void m1();
+
+}
+
+class Demo1 {
+
+	public static void m2() {
+		System.out.println("This is m2() method ....");
+	}
+
+}

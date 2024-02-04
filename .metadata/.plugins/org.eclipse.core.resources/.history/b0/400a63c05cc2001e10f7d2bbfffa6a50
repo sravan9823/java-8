@@ -1,0 +1,19 @@
+package in.sravanit;
+
+import java.time.LocalTime;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+
+		// Getting current time
+		LocalTime time = LocalTime.now();
+		System.out.println(time);
+
+		// Getting specific time using of method
+		time = LocalTime.of(11, 20, 30);
+		System.out.println(time);
+
+	}
+
+}

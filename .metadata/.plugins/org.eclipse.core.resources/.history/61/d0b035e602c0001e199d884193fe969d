@@ -1,0 +1,12 @@
+package in.sravanit.beans;
+
+public interface Vehicle {
+
+	void cleanVehicle();
+
+	void sensor();
+	
+	default void startVehicle() {
+		System.out.println("Vehicle Started..!!");
+	}
+}

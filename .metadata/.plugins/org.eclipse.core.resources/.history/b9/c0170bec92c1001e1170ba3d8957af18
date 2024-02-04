@@ -1,0 +1,15 @@
+package in.sravan.it.beans;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PersonsFilter {
+
+	public static void main(String[] args) {
+
+		List<Person> persons = new ArrayList<>();
+		
+		Person p1 = new Person("Raju", 28, "Software");
+	}
+
+}

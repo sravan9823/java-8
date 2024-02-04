@@ -1,0 +1,14 @@
+package in.sravanit.beans;
+
+public class MarriagePortal {
+
+	public static void main(String[] args) {
+
+		Person p1 = new Person("Sravan", "Software", 9160989823l);
+		Person p2 = new Person("Gopi", "Chef", 8697658968l);
+		Person p1 = new Person("Mahesh", "PhotoGrapher", 7888959598l);
+		Person p1 = new Person("Sravan", "Software", 9160989823l);
+		Person p1 = new Person("Sravan", "Software", 9160989823l);
+	}
+
+}

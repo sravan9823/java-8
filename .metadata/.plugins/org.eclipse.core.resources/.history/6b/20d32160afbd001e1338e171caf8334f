@@ -1,0 +1,9 @@
+package in.sravanit.beans;
+
+public class NumberCheck {
+
+	public static void main(String[] args) {
+
+	}
+
+}

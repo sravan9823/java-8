@@ -1,0 +1,12 @@
+package in.sravanit.beans;
+
+public class ConsumerDemo {
+
+	public static void main(String[] args) {
+
+		(name) -> {
+			System.out.println(name+ " Good Morning...!!");
+		};
+	}
+
+}

@@ -1,0 +1,19 @@
+package in.sravanit;
+
+import java.time.LocalDate;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+
+		//Getting Current Date
+		LocalDate now = LocalDate.now();
+		System.out.println(now);
+		
+		//Getting specific date using of method
+		LocalDate date = LocalDate.of(1990, 01, 15);
+		System.out.println(date);
+		
+	}
+
+}

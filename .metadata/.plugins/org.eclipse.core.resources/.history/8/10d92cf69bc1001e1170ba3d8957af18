@@ -1,0 +1,21 @@
+package in.sravan.it.beans;
+
+public class Person {
+
+	private String name;
+	private Integer age;
+	private String job;
+
+	public Person(String name, Integer age, String job) {
+
+		this.name = name;
+		this.age = age;
+		this.job = job;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [age=" + age + ", name=" + name + ", job=" + job + "]";
+	}
+
+}

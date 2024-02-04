@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.sravanit.beans.VoteEligibleCheck&apos; to &apos;PersonNamesPrint&apos;&#x0D;&#x0A;- Original project: &apos;05-Predicate-App&apos;&#x0D;&#x0A;- Original element: &apos;in.sravanit.beans.VoteEligibleCheck&apos;&#x0D;&#x0A;- Renamed element: &apos;in.sravanit.beans.PersonNamesPrint&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;VoteEligibleCheck&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;in.sravanit.beans{VoteEligibleCheck.java[VoteEligibleCheck" matchStrategy="1" name="PersonNamesPrint" qualified="false" references="true" similarDeclarations="false" stamp="1706434956769" textual="false" version="1.0"/>
+</session>

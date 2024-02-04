@@ -1,0 +1,19 @@
+package in.Sravanit;
+
+import java.util.StringJoiner;
+
+public class StringJoinerDemo {
+
+	public static void main(String[] args) {
+
+		StringJoiner joiner = new StringJoiner(",");
+		jioner.add("Ramu");
+		jioner.add("Sita");
+		jioner.add("Raja");
+		jioner.add("Rani");
+		
+		System.out.println(jioner);
+		
+	}
+
+}

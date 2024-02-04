@@ -1,0 +1,55 @@
+package in.sravanit.beans;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Predicate;
+
+public class VoteEligibleCheck {
+
+	public static void main(String[] args) {
+
+		Person p1 = new Person("Raju", 20);
+		Person p2 = new Person("Nick", 10);
+		Person p3 = new Person("Rani", 21);
+		Person p4 = new Person("Sita", 19);
+
+		List<Person> persons = Arrays.asList(p1, p2, p3, p4);
+
+		Predicate<Person> predicate = (person) -> person.getAge() > 18;
+		
+		for(Person p: persons) {
+			if(predicate.test(p)) {
+				System.out.println(p.getName());
+			}
+		}
+
+	}
+
+}
+
+class Person {
+	private String name;
+	private Integer age;
+
+	public Person(String name, Integer age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+
+}

@@ -1,0 +1,9 @@
+package in.sravanit.beans;
+
+public class Person {
+
+	public Person() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

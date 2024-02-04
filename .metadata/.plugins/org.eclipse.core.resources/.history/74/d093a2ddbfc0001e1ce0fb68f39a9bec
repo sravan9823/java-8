@@ -1,0 +1,13 @@
+package in.sravanit.beans;
+
+public class Sample {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+interface SampleInterface {
+	Sample get();
+}

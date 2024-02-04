@@ -1,0 +1,12 @@
+package in.sravanit.beans;
+
+public class Sample {
+
+	public static void main(String[] args) {
+
+		Sample s1 = new Sample();
+
+		Sample s2 = Sample::new;
+	}
+
+}

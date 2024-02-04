@@ -1,0 +1,12 @@
+package in.sravanit.beans;
+
+import java.util.Arrays;
+
+public class SlicingDemo {
+
+	public static void main(String[] args) {
+
+		Arrays.asList("");
+	}
+
+}

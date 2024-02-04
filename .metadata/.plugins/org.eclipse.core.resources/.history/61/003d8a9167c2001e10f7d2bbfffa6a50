@@ -1,0 +1,16 @@
+package in.sravanit;
+
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+
+		ZoneId of = ZoneId.of("America/Marigot");
+		System.out.println("Zone Id :: "+of);
+		
+		ZonedDateTime.now();
+	}
+
+}

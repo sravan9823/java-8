@@ -1,0 +1,9 @@
+package in.sravanit.beans;
+
+public class NamesPrinting {
+
+	public static void main(String[] args) {
+
+	}
+
+}

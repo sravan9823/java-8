@@ -1,0 +1,10 @@
+package com.sravanit.beans;
+
+public class FunctionDemo {
+
+	public static void main(String[] args) {
+
+		(s) -> s.toUppercase();
+	}
+
+}

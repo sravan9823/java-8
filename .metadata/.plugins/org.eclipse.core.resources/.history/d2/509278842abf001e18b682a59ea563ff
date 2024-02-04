@@ -1,0 +1,16 @@
+package in.sravanit.brans;
+
+public class OtpGenerator {
+
+	public static void main(String[] args) {
+		
+		String otp = null;
+
+		() -> {
+			for(int i=1;i<=6;i++) {
+				(int)Math.random()*10;
+			}
+		}
+	}
+
+}

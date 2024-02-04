@@ -1,0 +1,10 @@
+package in.sravanit.brans;
+
+public class OtpGenerator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

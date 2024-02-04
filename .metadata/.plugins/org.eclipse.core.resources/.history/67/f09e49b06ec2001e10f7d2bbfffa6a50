@@ -1,0 +1,14 @@
+package in.sravanit;
+
+import in.sravanit.service.EmployeeService;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		EmployeeService service = new EmployeeService();
+
+		Employee employee = service.getEmpById(101);
+		System.out.println(employee.getName());
+	}
+}

@@ -1,0 +1,16 @@
+package in.sravanit.beans;
+
+public class Person {
+	
+	private String name;
+	private String job;
+	private Long phno;
+	
+	public Person(String name, String job, Long phno) {
+		this.name = name;
+		this.job = job;
+		this.phno = phno;
+	}
+
+	
+}

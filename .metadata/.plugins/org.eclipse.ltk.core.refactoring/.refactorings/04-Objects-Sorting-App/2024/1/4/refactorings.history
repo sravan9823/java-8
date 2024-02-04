@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.ashokit.beans.Main&apos; to &apos;SortingApproachOne&apos;&#x0D;&#x0A;- Original project: &apos;04-Objects-Sorting-App&apos;&#x0D;&#x0A;- Original element: &apos;in.ashokit.beans.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;in.ashokit.beans.SortingApproachOne&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;in.ashokit.beans{Main.java[Main" matchStrategy="1" name="SortingApproachOne" qualified="false" references="true" similarDeclarations="false" stamp="1705902675335" textual="false" version="1.0"/>
+</session>

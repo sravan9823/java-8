@@ -1,0 +1,19 @@
+package in.sravanit.service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import in.sravanit.Employee;
+
+public class EmployeeService {
+
+	private Map<Integer, Employee> empMap = new HashMap<>();
+
+	/*public Employee getEmpById(Integer empId) {
+		return empMap.get(empId);
+	}*/
+	
+	public Employee getEmpById(Integer empId) {
+		return empMap.get(empId);
+	}
+}

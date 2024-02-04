@@ -1,0 +1,10 @@
+package in.sravanit.beans;
+
+public class MarriagePortal {
+
+	public static void main(String[] args) {
+
+		Person p1 = new Person("Sravan", "Software", 9160989823);
+	}
+
+}

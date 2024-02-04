@@ -1,0 +1,11 @@
+package in.sravanit.beans;
+
+public class I20car implements Vehicle {
+
+	@Override
+	public void cleanVehicle() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

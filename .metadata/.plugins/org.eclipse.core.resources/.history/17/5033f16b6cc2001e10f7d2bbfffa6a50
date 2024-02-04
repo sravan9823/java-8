@@ -1,0 +1,7 @@
+package in.sravanit.service;
+
+public class EmployeeService {
+	
+	private Map<Integer,Employee> empMap = new HashMap<>();
+
+}

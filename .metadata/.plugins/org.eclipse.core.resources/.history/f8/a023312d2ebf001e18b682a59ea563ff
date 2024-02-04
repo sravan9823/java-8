@@ -1,0 +1,10 @@
+package in.sravanit.beans;
+
+public class BiConsumerDemo {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

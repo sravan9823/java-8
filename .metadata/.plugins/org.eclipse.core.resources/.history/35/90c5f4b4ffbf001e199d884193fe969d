@@ -1,0 +1,7 @@
+package in.sravanit.beans;
+
+public interface Vehicle {
+
+	public abstract void cleanVehicle();
+
+}

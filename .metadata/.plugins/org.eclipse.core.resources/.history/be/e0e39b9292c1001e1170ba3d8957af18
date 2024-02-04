@@ -1,0 +1,10 @@
+package in.sravan.it.beans;
+
+public class PersonsFilter {
+
+	public static void main(String[] args) {
+
+		List<Person> list = new ArrayList<>();
+	}
+
+}

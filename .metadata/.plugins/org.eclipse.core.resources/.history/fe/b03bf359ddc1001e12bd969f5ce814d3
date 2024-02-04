@@ -1,0 +1,52 @@
+package com.sravanit.beans;
+
+public class MatchingDemo {
+
+	public static void main(String[] args) {
+
+		Person p1 = new Person("David", 23, "India");
+		Person p2 = new Person("Joy", 25, "USA");
+		Person p1 = new Person("Ryan", 50, "Canada");
+		Person p1 = new Person("Ram", 45, "India");
+		Person p1 = new Person("Ching", 56, "India");
+		
+	}
+
+}
+
+class Person {
+	private String name;
+	private int age;
+	private String country;
+
+	public Person(String name, int age, String country) {
+		this.name = name;
+		this.age = age;
+		this.country = country;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+}

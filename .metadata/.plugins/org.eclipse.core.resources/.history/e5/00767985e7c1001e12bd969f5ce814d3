@@ -1,0 +1,18 @@
+package com.sravanit.beans;
+
+public class CollectorsToListDemo {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
+
+class Employee {
+	
+	String name;
+	int age;
+	int salary;
+	
+}

@@ -1,0 +1,12 @@
+package in.sravanit.beans;
+
+import java.util.Arrays;
+
+public class FlatMappDemo {
+
+	public static void main(String[] args) {
+
+		Arrays.asList("Core Java","Adv Java","SBMS","JRTP")''
+	}
+
+}

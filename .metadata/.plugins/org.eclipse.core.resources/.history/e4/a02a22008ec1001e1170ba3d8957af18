@@ -1,0 +1,12 @@
+package in.sravan.it.beans;
+
+import java.util.stream.Stream;
+
+public class NumbersFilter {
+
+	public static void main(String[] args) {
+
+		Stream.of(4,8,12,6,7,11,24);
+	}
+
+}

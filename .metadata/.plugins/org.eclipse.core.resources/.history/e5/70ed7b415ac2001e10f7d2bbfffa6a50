@@ -1,0 +1,13 @@
+package in.sravanit;
+
+import java.time.LocalDate;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+
+		LocalDate now = LocalDate.now();
+		System.out.println(now);
+	}
+
+}

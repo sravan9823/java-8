@@ -1,0 +1,13 @@
+package in.sravanit;
+
+import java.time.Period;
+
+public class Demo5 {
+
+	public static void main(String[] args) {
+
+		Period period = Period.ofDays(5);
+		System.out.println(period.getDays());
+	}
+
+}

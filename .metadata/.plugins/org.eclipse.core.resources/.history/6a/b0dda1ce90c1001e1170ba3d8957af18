@@ -1,0 +1,21 @@
+package in.sravan.it.beans;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class NamesFilter {
+
+	public static void main(String[] args) {
+
+		List<String> list = new ArrayList<>();
+		list.add ( "Anushka" );
+		list.add ( "3Sha" );
+		list.add ( "9tara" );
+		list.add ( "Deepika Padukone" );
+		list.add ( "Pooja Hegde" );
+	
+	 Stream <String> stream = list.stream ( );
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package in.sravanit.beans;
+
+public class NamesMapping {
+
+	public static void main(String[] args) {
+
+	}
+
+}

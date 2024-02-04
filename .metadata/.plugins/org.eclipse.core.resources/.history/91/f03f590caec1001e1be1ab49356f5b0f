@@ -1,0 +1,8 @@
+package in.sravanit.beans;
+
+public class Person {
+
+	public Person() {
+	}
+
+}

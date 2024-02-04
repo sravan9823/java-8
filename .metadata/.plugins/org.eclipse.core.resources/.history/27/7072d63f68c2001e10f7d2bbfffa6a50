@@ -1,0 +1,17 @@
+package in.sravanit;
+
+import java.time.Period;
+
+public class Demo5 {
+
+	public static void main(String[] args) {
+
+		Period period = Period.ofDays(5);
+		System.out.println(period.getDays());
+		
+		period = Period.ofMonths(3);
+		
+		period = Period.ofYears(2);
+	}
+
+}
